@@ -7,10 +7,7 @@ import {
   Star,
   Play,
   CheckCircle,
-  Lock,
   Zap,
-  Code,
-  TrendingUp,
   Award,
   Filter,
   Search
@@ -122,15 +119,6 @@ export default function ChallengesPage() {
     hardCount: 2,
     rank: 1456,
     streak: 7
-  };
-
-  const getDifficultyColor = (difficulty: string) => {
-    switch(difficulty) {
-      case "쉬움": return "text-green-600 dark:text-green-400";
-      case "보통": return "text-yellow-600 dark:text-yellow-400";
-      case "어려움": return "text-red-600 dark:text-red-400";
-      default: return "text-gray-600 dark:text-gray-400";
-    }
   };
 
   const getDifficultyBg = (difficulty: string) => {

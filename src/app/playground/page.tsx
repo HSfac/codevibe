@@ -6,7 +6,6 @@ import {
   Square, 
   Save, 
   Share, 
-  Download, 
   Settings, 
   RotateCcw,
   Maximize,
@@ -142,7 +141,7 @@ Hello, Developer! Welcome to CodeVibe! 🚀
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const loadTemplate = (template: any) => {
+  const loadTemplate = (template: { language: string; code: string }) => {
     setSelectedLanguage(template.language);
     setCode(template.code);
     setOutput('');

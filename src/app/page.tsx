@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Code, Users, BookOpen, Zap, TrendingUp, Star, ArrowRight, Terminal, Coffee, Award } from 'lucide-react';
+import { Code, Users, BookOpen, Zap, ArrowRight, Terminal, Coffee, Award } from 'lucide-react';
 
 export default function Home() {
   return (

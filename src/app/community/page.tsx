@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { 
   MessageSquare, 
-  TrendingUp, 
   Users, 
   Calendar, 
   Award, 

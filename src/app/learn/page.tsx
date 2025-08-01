@@ -1,17 +1,13 @@
 import Link from 'next/link';
 import { 
-  BookOpen, 
   PlayCircle, 
   Trophy, 
   Clock, 
   Users, 
   Star,
   ArrowRight,
-  Code,
   Zap,
   Target,
-  TrendingUp,
-  CheckCircle,
   User
 } from 'lucide-react';
 

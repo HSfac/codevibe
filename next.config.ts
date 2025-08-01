@@ -20,8 +20,7 @@ const nextConfig: NextConfig = {
     optimizeCss: true,
   },
   
-  // 성능 최적화
-  swcMinify: true,
+  // 성능 최적화는 Next.js 15에서 기본적으로 활성화됨
   
   // 보안 헤더
   async headers() {
